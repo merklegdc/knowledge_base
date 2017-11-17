@@ -1,0 +1,18 @@
+[ 2017-09-14T16:44:46+08:00 ] 192.168.225.74 /KnowledgeBase/index.php/assets/js/vendor/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007759s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-14T16:45:05+08:00 ] 192.168.225.74 /KnowledgeBase/index.php/assets/js/vendor/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-14T16:45:10+08:00 ] 192.168.225.74 /KnowledgeBase/index.php/assets/js/vendor/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:Assets
+

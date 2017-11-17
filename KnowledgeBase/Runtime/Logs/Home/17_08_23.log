@@ -1,0 +1,1080 @@
+[ 2017-08-23T10:25:58+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024425s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T10:25:59+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008211s ]
+
+[ 2017-08-23T10:26:00+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0051s ]
+SQL: call kb('886') [ RunTime:0.0301s ]
+
+[ 2017-08-23T10:26:12+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0040s ]
+SQL: call kb('886') [ RunTime:0.0070s ]
+
+[ 2017-08-23T10:26:27+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0061s ]
+SQL: call kb('886') [ RunTime:0.0107s ]
+
+[ 2017-08-23T10:26:46+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0075s ]
+SQL: call kb('886') [ RunTime:0.0116s ]
+
+[ 2017-08-23T10:27:06+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T10:27:06+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000628s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2017-08-23T10:27:07+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0070s ]
+SQL: call kb('886') [ RunTime:0.0091s ]
+
+[ 2017-08-23T10:28:56+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2017-08-23T10:28:57+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+ERR: 无法加载控制器:GetAll
+
+[ 2017-08-23T10:29:38+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2017-08-23T10:29:38+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0074s ]
+SQL: call kb('886') [ RunTime:0.0140s ]
+
+[ 2017-08-23T10:32:03+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2017-08-23T10:32:03+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0071s ]
+SQL: call kb('886') [ RunTime:0.0122s ]
+
+[ 2017-08-23T10:33:18+08:00 ] 192.168.225.47 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T10:33:18+08:00 ] 192.168.225.47 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2017-08-23T10:33:19+08:00 ] 192.168.225.47 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0063s ]
+SQL: call kb('1086') [ RunTime:0.0123s ]
+
+[ 2017-08-23T10:33:43+08:00 ] 192.168.224.217 /KnowledgeBase/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2017-08-23T10:33:50+08:00 ] 192.168.224.217 /KnowledgeBase/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005759s ]
+
+[ 2017-08-23T10:33:57+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002410s ]
+
+[ 2017-08-23T10:33:58+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000526s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0070s ]
+SQL: call kb('886') [ RunTime:0.0105s ]
+
+[ 2017-08-23T10:34:05+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2017-08-23T10:34:05+08:00 ] 192.168.224.217 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0060s ]
+SQL: call kb('886') [ RunTime:0.0100s ]
+
+[ 2017-08-23T10:38:08+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T10:38:09+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2017-08-23T10:38:09+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0070s ]
+SQL: call kb('414') [ RunTime:0.0124s ]
+
+[ 2017-08-23T10:38:46+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0070s ]
+SQL: call kb('414') [ RunTime:0.0137s ]
+
+[ 2017-08-23T10:45:05+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2017-08-23T10:45:05+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0060s ]
+SQL: call kb('414') [ RunTime:0.0106s ]
+
+[ 2017-08-23T10:51:02+08:00 ] 192.168.225.82 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T10:51:02+08:00 ] 192.168.225.82 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2017-08-23T10:51:03+08:00 ] 192.168.225.82 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0056s ]
+SQL: call kb('1087') [ RunTime:0.0125s ]
+
+[ 2017-08-23T10:53:04+08:00 ] 192.168.225.82 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2017-08-23T10:53:04+08:00 ] 192.168.225.82 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0076s ]
+SQL: call kb('1087') [ RunTime:0.0135s ]
+
+[ 2017-08-23T10:53:09+08:00 ] 192.168.225.82 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0068s ]
+SQL: call kb('1087') [ RunTime:0.0176s ]
+
+[ 2017-08-23T10:55:50+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002084s ]
+
+[ 2017-08-23T10:55:50+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0075s ]
+SQL: call kb('414') [ RunTime:0.0118s ]
+
+[ 2017-08-23T10:55:53+08:00 ] 192.168.225.82 /KnowledgeBase/index.php/Home/Index/updateFlag?like_flag=Y&article_id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0058s ]
+SQL: call change_flag('1087','Y','45') [ RunTime:0.0379s ]
+
+[ 2017-08-23T10:55:54+08:00 ] 192.168.225.82 /KnowledgeBase/index.php/Home/Index/updateFlag?like_flag=Y&article_id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0067s ]
+SQL: call change_flag('1087','Y','44') [ RunTime:0.0110s ]
+
+[ 2017-08-23T10:56:52+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0059s ]
+SQL: call kb('414') [ RunTime:0.0118s ]
+
+[ 2017-08-23T11:01:45+08:00 ] 192.168.224.164 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T11:01:45+08:00 ] 192.168.224.164 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2017-08-23T11:01:45+08:00 ] 192.168.224.164 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0065s ]
+SQL: call kb('1319') [ RunTime:0.0112s ]
+
+[ 2017-08-23T11:01:57+08:00 ] 192.168.224.227 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T11:01:57+08:00 ] 192.168.224.227 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2017-08-23T11:01:58+08:00 ] 192.168.224.227 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0137s ]
+SQL: call kb('333') [ RunTime:0.0115s ]
+
+[ 2017-08-23T11:02:19+08:00 ] 192.168.228.82 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T11:02:19+08:00 ] 192.168.228.82 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001934s ]
+
+[ 2017-08-23T11:02:20+08:00 ] 192.168.228.82 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0054s ]
+SQL: call kb('1328') [ RunTime:0.0103s ]
+
+[ 2017-08-23T11:02:24+08:00 ] 192.168.225.58 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T11:02:24+08:00 ] 192.168.225.58 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002643s ]
+
+[ 2017-08-23T11:02:25+08:00 ] 192.168.225.58 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0046s ]
+SQL: call kb('376') [ RunTime:0.0344s ]
+
+[ 2017-08-23T11:02:34+08:00 ] 192.168.224.106 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T11:02:34+08:00 ] 192.168.224.106 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2017-08-23T11:02:35+08:00 ] 192.168.224.106 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0045s ]
+SQL: call kb('1311') [ RunTime:0.0082s ]
+
+[ 2017-08-23T11:03:00+08:00 ] 192.168.225.60 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T11:03:00+08:00 ] 192.168.225.60 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2017-08-23T11:03:01+08:00 ] 192.168.225.60 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0075s ]
+SQL: call kb('1309') [ RunTime:0.0103s ]
+
+[ 2017-08-23T11:03:06+08:00 ] 192.168.198.108 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T11:03:06+08:00 ] 192.168.198.108 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-08-23T11:03:06+08:00 ] 192.168.198.108 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0054s ]
+SQL: call kb('1237') [ RunTime:0.0094s ]
+
+[ 2017-08-23T11:06:10+08:00 ] 192.168.224.107 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T11:06:10+08:00 ] 192.168.224.107 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-08-23T11:06:11+08:00 ] 192.168.224.107 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0057s ]
+SQL: call kb('1280') [ RunTime:0.0123s ]
+
+[ 2017-08-23T15:36:14+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T15:36:15+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2017-08-23T15:36:15+08:00 ] 192.168.224.253 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0038s ]
+SQL: call kb('414') [ RunTime:0.0067s ]
+
+[ 2017-08-23T15:42:22+08:00 ] 192.168.224.105 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-23T15:42:22+08:00 ] 192.168.224.105 /KnowledgeBase/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2017-08-23T15:42:23+08:00 ] 192.168.224.105 /KnowledgeBase/index.php/Home/Index/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\CNIntranet\KnowledgeBase\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Home\Controller\CommonController::refreshBaseInfo() [<a href='home\controller\commoncontroller.refreshbaseinfo'>home\controller\commoncontroller.refreshbaseinfo</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Employee&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  C:\CNIntranet\KnowledgeBase\KnowledgeBase\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `knowledge_base_admin` [ RunTime:0.0074s ]
+SQL: call kb('1313') [ RunTime:0.0148s ]
+

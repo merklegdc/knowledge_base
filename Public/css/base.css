@@ -1,0 +1,97 @@
+.like_button {
+    cursor: pointer;
+    height: 28px;
+    opacity: 0.5;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 69.6875px;
+    perspective-origin: 34.8438px 14px;
+    transform-origin: 34.8438px 14px;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal 500 normal 11px / normal "YouTube Noto", Roboto, arial, sans-serif;
+    padding: 0px 0px 0px 10px;
+}/*#BUTTON_1*/
+
+.like_button:before {
+    background-position: -162px -164px;
+    content: '';
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 20px;
+    align-self: flex-start;
+    perspective-origin: 10px 10px;
+    transform-origin: 10px 10px;
+    background: rgba(0, 0, 0, 0) url("../img/www-hitchhiker-vfl-Nn88d.png") no-repeat scroll -162px -164px / auto padding-box border-box;
+    font: normal normal 500 normal 11px / normal "YouTube Noto", Roboto, arial, sans-serif;
+    margin: 0px 6px 0px 0px;
+}
+
+.unlike_button {
+    cursor: pointer;
+    height: 28px;
+    opacity: 0.5;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 69.6875px;
+    perspective-origin: 34.8438px 14px;
+    transform-origin: 34.8438px 14px;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal 500 normal 11px / normal "YouTube Noto", Roboto, arial, sans-serif;
+    padding: 0px 0px 0px 10px;
+}/*#BUTTON_1*/
+
+.unlike_button:before {    
+	background-position: -775px -112px;
+    content: '';
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 20px;
+    align-self: flex-start;
+    perspective-origin: 10px 10px;
+    transform-origin: 10px 10px;
+    background: rgba(0, 0, 0, 0) url("../img/www-hitchhiker-vfl-Nn88d.png") no-repeat scroll -775px -112px / auto padding-box border-box;
+    font: normal normal 500 normal 11px / normal "YouTube Noto", Roboto, arial, sans-serif;
+    margin: 0px 6px 0px 0px;
+}/*#BUTTON_1:before*/
+
+#SPAN_2 {
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    align-self: flex-start;
+    font: normal normal 500 normal 11px / normal "YouTube Noto", Roboto, arial, sans-serif;
+}/*#SPAN_2*/
+
+.bubble {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 50px;
+  height: 20px;
+  position: relative;
+  border: none;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #1abc9c;
+}
+
+li{
+	float:left;
+	list-style:none;
+}
+

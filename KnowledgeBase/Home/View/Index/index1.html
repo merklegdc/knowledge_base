@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Knowledge Base - Article List</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/KnowledgeBase/Public/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+	
+    <link href="/KnowledgeBase/Public/css/base.css" rel="stylesheet">
+	
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Knowledge Base</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>Article List</h1>
+				<!--
+                <p class="lead">Complete with pre-defined file paths that you won't have to change!!</p>
+                <ul class="list-unstyled">
+                    <li>Bootstrap v3.3.7</li>
+                    <li>jQuery v1.11.1</li>
+                </ul>
+				-->
+            </div>
+        </div>
+		<div class="row">
+            <div class="col-lg-12 text-center">
+				<table id="table" class="table" >
+					<thead class="thead-default">
+						<tr>
+							<th>Author</th>
+							<th>Title</th>
+							<th>Elected Date</th>
+							<th>Likes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							
+						</tr>
+					</tbody>
+				</table>
+			</div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="/KnowledgeBase/Public/js/jquery-1.12.4.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/KnowledgeBase/Public/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$.get("getAll",function(data,status){
+				var arr = data.data
+				jQuery.each(arr, function() {
+					if (this.like_flag=='Y') {
+						var cls = "like_button"
+					}else{
+						var cls = "unlike_button"
+					}
+					//$("tbody").append("<tr><th>"+this.author+"</th><th>"+this.title+"</th><th>"+this.dt+"</th><th><ul><li><button type='button' id='"+this.article_id+"' class='"+cls+"'><span id='SPAN_2'>"+this.vote+"</span></button></li><li><div class='bubble'></div></li></ul></th></tr>");
+					$("tbody").append("<tr><th>"+this.author+"</th><th><a href='"+this.url+"'>"+this.title+"</a></th><th>"+this.dt+"</th><th><button type='button' id='"+this.article_id+"' class='"+cls+"'><span id='SPAN_2'>"+this.vote+"</span></button></th></tr>");
+				});
+				$("button").click(function(){
+					var vote = $(this).children("span").text();
+					if ($(this).hasClass("like_button")){$(this).removeClass("like_button");$(this).addClass("unlike_button");$(this).children("span").text(parseInt(vote)-1);submit("N",$(this).attr("id"));return}
+					if ($(this).hasClass("unlike_button")){$(this).removeClass("unlike_button");$(this).addClass("like_button");$(this).children("span").text(parseInt(vote)+1);submit("Y",$(this).attr("id"));return}
+				});
+			})
+			
+		} );
+		var submit = function(like_flag,article_id){
+			$.get("updateFlag?like_flag="+like_flag+"&article_id="+article_id,function(data,status){})
+		}
+		
+	</script>
+	
+</body>
+
+</html>

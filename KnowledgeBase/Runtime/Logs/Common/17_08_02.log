@@ -1,0 +1,6 @@
+[ 2017-08-02T10:51:42+08:00 ] 192.168.225.52 /KnowledgeBase/index.php/assets/js/vendor/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Assets
+
